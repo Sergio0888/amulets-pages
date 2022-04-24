@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+
+    <!-- Хедер -->
+
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__nav">
+                <a href="./index.html" class="logo">
+                    <span class="logo__colored">За</span>говори</a>
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a class="header__menu-link" href="./index.html">Головна</a></li>
+                    <li class="header__menu-item  active"><a class="header__menu-link  header__menu-link-color" href="./portfolio.html">Програма курсу</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="">Про нас</a></li>
+                </ul>
+            </nav>
+            <ul class="header__address">
+                <li class="header__address-item">
+                    <a class="header__address-link" href="mailto:zagovoru.zagovoru@gmail.com"> <svg class="header__adress-icon">
+                            <use href="./images/icons/contacts.svg#icon-mail"></use>
+                        </svg>zagovoru@gmail.com</a>
+                </li>
+                <li class="header__address-item">
+                    <a class="header__address-link" href="tel:+380958392598"> <svg class="header__adress-icon">
+                            <use href="./images/icons/contacts.svg#icon-tel"></use>
+                        </svg>+38-095-83-92-598</a>
+                </li>
+            </ul>
+            <button type="button" 
+            class="header__open-menu is-open"
+            data-menu-open 
+            aria-label="Переключатель меню">
+              <svg class="header__open-menu-icon">
+                  <use class="header__open-menu-icon-cross" href="./images/icons/open-close.svg#icon-burg"></use>
+              </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Кнопки, первая секция -->
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section__title">Програма курсу</h1>
+                <ol class="kurs__list">
+                    <li class="kurs__list-item"> 1. Ораторське мистецтво – мистецтво гарно говорити. Розкриваємо базові поняття курсу.</li>
+                    <li class="kurs__list-item"> 2. Дихання та артикуляція – фундаментальні основи техніки мовлення.</li>
+                    <li class="kurs__list-item"> 3. Психологічний тренінг: страх публіки та сцени, як їх побороти?!</li>
+                    <li class="kurs__list-item"> 4. Емоційний діапазон оратора.</li>
+                    <li class="kurs__list-item"> 5. Розвиток польотності голосу. Сила голосу.</li>
+                    <li class="kurs__list-item"> 6. Успішний виступ: яким він має бути?  </li>
+                    <li class="kurs__list-item"> 7. Імпровізація виступу: що це і для чого вона потрібна?</li>
+                    <li class="kurs__list-item"> 8. Чітка дикція та техніка дихання. </li>
+                    <li class="kurs__list-item"> 9. Дитячі дебати, або навіщо дітям вміти сперечатися?</li>
+                    <li class="kurs__list-item">10. Камера та мікрофон – кращий друг оратора. </li>
+                    <li class="kurs__list-item">11. Акторський тренінг: сам собі режисер. </li>
+                    <li class="kurs__list-item">12. Відпрацювання всіх ораторських вмінь та навичок.
+
+                    </li>
+                </ol>	
+                <div class="kurs__box">
+                    <h2 class="section__title">Результати курсу помітні вже через місяць занять</h2>
+                    <svg class="kurs__box-icon">
+                        <use href="./images/procent.svg#procent"></use>
+                    </svg>
+                    <p class="kurs__box-text">*батьків рекомендують нас своїм знайомим та друзям!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__contacts-box">
+                <a href="./index.html" class="logo logo_c-white"><span class="logo__colored">За</span>говори</a>
+                <address>
+                    <ul class="footer__contact-list">
+                        <li class="footer__contact-item">
+                            <a class="footer__contact-address" href="">г. Бориспіль, вул.Верхній Вал, 29-А</a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <a class="footer__contact-link" href="mailto:zagovoru.zagovoru@gmail.com">zagovoru@gmail.com</a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <a class="footer__contact-link" href="tel:+380958392598">+38 095 83 92 598</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            
+            <div class="footer__socials-box">
+                <h3 class="footer__title">МИ У СОЦМЕРЕЖАХ</h3>
+                <ul class="footer__socials">
+                    <li class="socials__item">
+                        <a target="_blank" href="https://www.instagram.com/shar.bar_" class="socials__link _color-change">
+                            <svg class="socials__image">
+                                <use href="./images/icons/socials.svg#icon-inst"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100031102341626" class="socials__link _color-change">
+                            <svg class="socials__image">
+                                <use href="./images/icons/socials.svg#icon-fb"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subscribe-box">
+                <h3 class="footer__title">ПІДПИСАТИСЬ НА РОЗСИЛАННЯ</h3>
+                
+                <label for="subscribe-input"></label>
+                <input class="subscribe-input" name="subscribe-input" id="subscribe-input" type="email" placeholder="E-mail">
+
+                <button class="btn footer__btn" type="submit">Підписатись
+                    <span class="subscribe-btn-box">
+                        <svg class="subscribe-btn-icon">
+                            <use href="./images/icons/icon-telegram.svg#icon-telegram"></use>
+                        </svg>
+                    </span>
+                </button>
+
+            </div> 
+        </div>
+    </footer>
+
+    <!-- Меню для мобильного -->
+
+    <div class="mobile-menu__modal is-hidden" data-menu>
+        <nav  class="mobile-menu__modal-nav">
+        <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="./index.html">Головна</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link  header__menu-link-color" href="./portfolio.html">Програма курсу</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Про нас</a></li>
+        </ul>
+
+        <ul class="mobile-menu__contacts">
+            <li class="mobile-menu__contacts-item">
+                <a class="mobile-menu__contacts-tel" href="tel:+380958392598">+38-095-83-92-598</a>
+            </li>
+            <li class="mobile-menu__contacts-item">
+                <a class="mobile-menu__contacts-mail" href="mailto:zagovoru.zagovoru@gmail.com">zagovoru@gmail.com</a>
+            </li>
+            </ul>
+            <ul class="mobile-menu__socials">
+                <li class="mobile-menu__socials-item"> <a target="_blank" class="mobile-menu__socials-link  _column" href="https://www.instagram.com/shar.bar_">Instagram</a> </li>
+                <li class="mobile-menu__socials-item"> <a target="_blank" class="mobile-menu__socials-link" href="https://www.facebook.com/profile.php?id=100031102341626">Facebook</a> </li>
+            </ul>
+        </nav>
+        
+        
+        
+                <div class="mobile-menu__close" data-menu-close>
+            <svg class="mobile-menu__close-icon">
+                <use class="mobile-menu__close-icon-close" href="./images/icons/open-close.svg#icon-close"></use>
+            </svg>
+            </div>
+        </div>
+
+<script src="./js/mobile-menu.js"></script>
+
+</body>
+
+</html>
